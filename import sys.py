@@ -459,5 +459,6 @@ if __name__ == "__main__":
             print("Спробуйте ще раз. Зміни внесено не було.")
         except IndexError as e:
             print(f"\n [Помилка індексу]: {e}")
+            print(expense.calculate_splits())
         except Exception as e:
             print(f"\n [Глобальне перехоплення помилки]: {e}")
