@@ -462,3 +462,4 @@ if __name__ == "__main__":
             print(expense.calculate_splits())
         except Exception as e:
             print(f"\n [Глобальне перехоплення помилки]: {e}")
+            print(expense.calculate_splits())
